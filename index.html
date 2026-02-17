@@ -136,25 +136,6 @@
             color: #cccccc;
         }
 
-        .cta-button {
-            display: inline-block;
-            padding: 12px 30px;
-            background: linear-gradient(135deg, #7c3aed, #a855f7);
-            color: white;
-            text-decoration: none;
-            border-radius: 30px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            font-family: inherit;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.3);
-        }
-
         .hero-image {
             text-align: center;
         }
@@ -575,24 +556,24 @@
                 grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
             }
 
-            .job-entry, .education-entry {
+            .skill-entry, .education-entry {
                 flex-direction: column;
             }
 
-            .job-left, .education-left {
+            .skill-left, .education-left {
                 width: 100%;
                 padding-right: 0;
                 margin-bottom: 1rem;
             }
 
-            .job-right, .education-right {
+            .jskill-right, .education-right {
                 padding-left: 0;
                 border-left: none;
                 border-top: 2px solid #7c3aed;
                 padding-top: 1rem;
             }
 
-            .job-right::before, .education-right::before {
+            .skill-right::before, .education-right::before {
                 display: none;
             }
 
@@ -642,7 +623,6 @@
     <!-- Header -->
     <header class="header">
         <nav class="nav container">
-            <div class="logo">PAK</div>
             <div class="menu-toggle" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
@@ -667,8 +647,6 @@
                 
                     <p> I am a first-year student pursuing a BSc (Hons) in Biotechnology. I have a strong interest in the intersection of science and technology, and I enjoy working on hands-on projects that bridge these two fields. My goal is to develop a solid foundation in  Biotech while expanding my technical skills through various academic and personal projects. 
                        </p>
-
-                    <a href="#projects" class="cta-button">See My Work</a>
                 </div>
                 <div class="hero-image">
                     <div class="profile-image">
@@ -983,6 +961,7 @@
 </body>
 
 </html>
+
 
 
 
